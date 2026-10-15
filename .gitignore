@@ -1,0 +1,88 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Atmos Weather — .gitignore
+# Goal: never commit dependencies, build output, secrets, or personal data.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+storybook-static/
+dev-dist/
+
+# Environment files & secrets (NEVER commit real keys)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+credentials*.json
+service-account*.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test, coverage & e2e artifacts
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Caches & tooling state
+.cache/
+.vite/
+.turbo/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+.firebase/
+.vercel/
+.netlify/
+
+# Editors & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Local app data, exports & scratch files
+*.local.json
+*.private.json
+local-data/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# Misc
+*.tgz
