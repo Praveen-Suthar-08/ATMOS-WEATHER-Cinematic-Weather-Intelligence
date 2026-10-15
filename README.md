@@ -8,7 +8,7 @@ Real data only — every temperature, forecast, radar frame and timestamp comes 
 | | |
 |---|---|
 | **Author** | **Praveen Suthar** — Weather Intelligence Architect |
-| **GitHub** | Repository link to be added by the author |
+| **GitHub** | (https://github.com/Praveen-Suthar-08/ATMOS-WEATHER-Cinematic-Weather-Intelligence.git) |
 | **Data** | [Open-Meteo](https://open-meteo.com/) (forecast, geocoding, archive) · [RainViewer](https://www.rainviewer.com/) (radar) |
 | **License of data** | Open-Meteo data under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — attribution shown in-app |
 
